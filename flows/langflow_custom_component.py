@@ -1,15 +1,3 @@
-"""
-Paste this into a Langflow "Custom Component" node to run the real
-InvestIQ pipeline (main.py) inside your flow, wired as:
-
-  Chat Input -> [this Custom Component] -> Chat Output
-
-The exact base-class import can shift between Langflow versions —
-if `from langflow.custom import Component` fails on your version,
-check Langflow's "Custom Component" docs panel (it shows the correct
-import for your installed version) and swap the import line only;
-the run() logic below does not need to change.
-"""
 
 from langflow.custom import Component
 from langflow.io import MessageTextInput, Output
